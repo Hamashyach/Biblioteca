@@ -1,10 +1,10 @@
-import mysql, {Connection} from  'mysql12';
+import mysql, {Connection} from  'mysql2';
 
 const dbConfig = {
     host: 'localhost',
     port: 3306,
     user: 'root',
-    password: 'mysql',
+    password: 'ifsp',
     database: 'livros'
 };
 
