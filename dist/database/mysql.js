@@ -12,7 +12,7 @@ const dbConfig = {
     password: 'mysql',
     database: 'livros'
 };
-const mysqlConnection = mysql12_1.default.createConnection(dbConfig);
+const mysqlConnection = mysql2_1.default.createConnection(dbConfig);
 mysqlConnection.connect((err) => {
     if (err) {
         console.error('Erro ao conectar ao banco de dados:', err);
